@@ -1,0 +1,24 @@
+baseURL = "https://hiroshimaru-dev.pages.dev/"
+languageCode = "ja"
+title = "Hiroshimaru Dev Blog"
+theme = "PaperMod"
+
+[params]
+  description = "IT系ブログ"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
